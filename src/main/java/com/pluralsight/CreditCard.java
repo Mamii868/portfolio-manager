@@ -21,6 +21,7 @@ public class CreditCard implements Valuable {
 
     @Override
     public double getValue() {
+//        A balance on the card should subtract form overall value
         return -this.balance;
     }
 }
