@@ -2,10 +2,10 @@ package com.pluralsight;
 
 public class BankAccount implements Valuable {
     private String name;
-    private String accountNumber;
+    private long accountNumber;
     private double balance;
 
-    public BankAccount(String name, String accountNumber, double balance) {
+    public BankAccount(String name, long accountNumber, double balance) {
         this.name = name;
         this.accountNumber = accountNumber;
         this.balance = balance;
